@@ -1,0 +1,602 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 125px;
+}
+
+/* Clearfix */
+
+.clearfix {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #2ea3f2;
+}
+
+.clearfix ul {
+    margin-left: 350px;
+}
+
+.clearfix li {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.clearfix a {
+    color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    .clearfix ul {
+        margin-left: 0;
+    }
+}
+
+/* End Clearfix */
+
+/* Start Navbar */
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.navbar-brand > img {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    height: 80px;
+}
+
+.navbar-brand,
+.navbar-nav > li > a {
+    height: 80px;
+    line-height: 50px;
+}
+
+@media (max-width: 600px) {
+  .navbar-brand > img {
+
+      position: absolute;
+      top: 100px;
+      left: 0px;
+      height: 50px
+  }
+}
+
+
+/* Start section1 */
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title h2 {
+    font-size: 40px;
+    color: #602261;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.event {
+    width: 30%;
+    margin: 1rem 1%;
+    border: 1px solid #b0b0b0;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+@media (max-width: 1024px) {
+    .event {
+        width: 48%;
+    }
+}
+
+@media (max-width: 767px) {
+    .event {
+        width: 98%;
+    }
+
+    .tab2 input {
+        width: 100%;
+    }
+
+    .tab2 button {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+}
+
+.carousel-inner img {
+    min-width: 100vw;
+}
+
+.event img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event h3 {
+    text-align: center;
+}
+
+.event p {
+    text-align: center;
+}
+
+.section2 span {
+    color: black;
+    text-transform: none;
+}
+
+.section2 i {
+    color: black;
+}
+
+/* End section 1 */
+
+/* Section 2 */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%;
+    padding: 100px;
+    background-image: linear-gradient(180deg, #289c47 0%, #6abd46 100%);
+}
+
+.footer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tab1 {
+    background-image: (180deg, #289c47 0%, #6abd46 100%);
+}
+
+.tab1 h2 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 38px;
+}
+
+.tab1 p {
+    color: white;
+    font-size: 20px;
+}
+
+.tab2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: (180deg, #289c47 0%, #6abd46 100%);
+}
+
+.tab2 input {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.tab2 button {
+    margin-top: 10px;
+    width: 450px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+}
+
+.tab2 button:hover {
+    font-size: 150%;
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .row {
+        width: 98%;
+    }
+}
+
+/* End section 2 */
+
+/* Cultivarea */
+
+.pageheader {
+    min-width: 100vw;
+    margin-bottom: 40px;
+}
+
+.pageheader2 {
+    min-width: 100vw;
+}
+
+.cultivarea {
+    text-indent: 50px;
+    line-height: 2;
+    margin: 0 50px 0 50px;
+}
+
+@media (max-width: 1024px) {
+    .cultivarea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .cultivarea {
+        width: 98%;
+    }
+}
+
+/* End cultivarea */
+
+.inmultirea {
+    margin-top: 30px;
+}
+
+.inmultirea p {
+    margin: 0 150px 0 150px;
+}
+
+.beneficii p {
+    margin: 20px 150px 0 150px;
+    line-height: 27px;
+}
+
+.beneficii li {
+    list-style-position: inside;
+    margin: 0 250px 0 250px;
+    line-height: 27px;
+}
+
+.pageheader3 {
+    min-width: 100vw;
+}
+
+.lavandaingradina h1 {
+    color: #289c47;
+    margin: 20px 150px 0 150px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.lavandaingradina p {
+    line-height: 2;
+    max-width: 1080px;
+    margin: auto;
+}
+
+table,
+td,
+th {
+    border: 1px solid #767676;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+table th {
+    background-color: #602261;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+table td {
+    padding: 30px 0;
+}
+
+.pret td {
+    color: #289c47;
+    font-size: 50px;
+}
+
+.coloana {
+    padding: 70px 50px;
+}
+
+.comanda {
+    border: 2px solid #289c47;
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #289c47;
+    font-weight: bold;
+}
+
+.comanda:hover {
+    font-size: 150%;
+    background-color: #289c47;
+    color: #ffffff;
+}
+
+.comanda2 {
+    margin-top: 10px;
+    border: 2px solid #289c47;
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #289c47;
+    font-weight: bold;
+}
+
+.comanda2:hover {
+    font-size: 150%;
+    background-color: #289c47;
+    color: #ffffff;
+}
+
+.lavandaingradina li {
+    text-align: left;
+    margin-left: 10px;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.lavandaingradina img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.column2 {
+    background-color: #ffffff;
+    /*float: left;*/
+    width: 50%;
+    padding: 10px;
+    /*height: 300px;*/
+    max-width: 1080px;
+    /*margin: auto;*/
+}
+
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row2 li {
+    margin-left: 90px;
+}
+
+@media (max-width: 1024px) {
+    .column2, .lista-produse {
+        /*width: 48%;*/
+    }
+}
+
+@media (max-width: 767px) {
+    .column2, .lista-produse {
+        /*width: 98%;*/
+        display: block;
+        margin-top: 20px;
+    }
+
+    .lista-produse {
+
+    }
+}
+
+/* Distilarea.html */
+
+.distilarea {
+    margin-top: 50px;
+    max-width: 1080px;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.distilarea p {
+    margin-top: 20px;
+}
+
+/*End distilarea */
+
+/* Butasi de lavanda */
+
+.column2 ol {
+    list-style-type: none;
+}
+
+.lista-produse {
+    /*float: left;*/
+    width: 50%;
+    padding: 10px;
+    /*height: 300px;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    /*align-items: flex-start;*/
+    /*align-content: flex-start;*/
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.produse {
+    min-width: 160px;
+    margin: 1rem 1%;
+    border: 1px solid #b0b0b0;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.produse img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.select {
+    margin: 0 50px;
+    background-color: #9beeb1;
+    font-weight: bold;
+    border: 2px solid #9beeb1;
+}
+
+.select:hover {
+    font-size: 100%;
+    background-color: #289c47;
+    color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+    .event {
+        width: 48%;
+    }
+}
+
+@media (max-width: 767px) {
+    .event {
+        width: 98%;
+    }
+}
+
+
+/*End butasi de lavanda */
+
+/* Contact.html */
+
+.contact {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.tel {
+    margin-left: 160px;
+}
+
+.col {
+    line-height: 25px;
+    padding: 20px;
+}
+
+.nume {
+    margin-left: 170px;
+    list-style-type: none;
+}
+
+.trimite {
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 5px;
+    width: 150px;
+    font-weight: bold;
+}
+
+label {
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .col {
+        margin-top: 10px;
+    }
+
+    .contact {
+        margin-top: 10px;
+    }
+
+    .row {
+        /*display: block;*/
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .tel,
+    .nume {
+        margin: 0;
+    }
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+@media (max-width: 700px) {
+
+
+    .tab2 input {
+        width: 100%;
+    }
+
+    .tab2 button {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .column2 {
+        width: 100%;
+    }
+
+    .lista-produse {
+        width: 100%;
+    }
+
+    .container2 {
+        flex-direction: column;
+    }
+}
